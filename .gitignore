@@ -1,0 +1,34 @@
+# Node dependencies
+node_modules/
+
+# Local SDKs and tooling
+/google-cloud-sdk/
+.vscode/
+.idea/
+
+# functions dependencies
+functions/
+
+# admin panel (local build)
+macos/
+
+# OS cruft
+.DS_Store
+
+# Environment files
+.env
+.env.*
+
+# Firebase local state
+.firebase/
+firebase-debug.log*
+
+# iOS/macOS build artifacts
+DerivedData/
+xcuserdata/
+*.xcuserstate
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
